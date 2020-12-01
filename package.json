@@ -1,0 +1,31 @@
+{
+  "name": "nodejs_projects",
+  "version": "1.0.0",
+  "main": "Email.js",
+  "dependencies": {
+    "actions-on-google": "^2.13.0",
+    "aws-serverless-express": "^3.3.8",
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "firebase-admin": "^9.3.0",
+    "firebase-functions": "^3.11.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.15",
+    "serverless": "^2.11.1"
+  },
+  "devDependencies": {
+
+    "serverless": "2.11.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
